@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+ top: 0;
+  width: 100%;
+
+}
+li{
+  float: left;
+  border-right: 1px solid #f1ebeb;
+}
+li a{
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 3px 3px 4px #e70c0c;
+}
+li a:hover:not(.active){
+  background-color: #111;
+}
+.active{
+  background-color: #04aa6d;
+}
+li:last-child{
+  border-right: none;
+}
+div{
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #1abc9c;
+}

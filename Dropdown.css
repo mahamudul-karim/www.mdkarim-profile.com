@@ -1,0 +1,10 @@
+.Dropdown{
+  position: relative;
+  display: inline-block;
+}
+.content{
+  /* display: none; */
+position: absolute;
+background-color: #f9f9f9;
+
+}
